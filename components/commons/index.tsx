@@ -16,4 +16,5 @@ export const components = {
   text_alpha1_home: dynamic(() => import("./textAlpha1Home")),
   text_alpha1_about_about: dynamic(() => import("./textAlpha1AboutAbout")),
   _icon_ini_ini: dynamic(() => import("./IconIniIni")),
+  link_lekhe_lekhe: dynamic(() => import("./linkLekheLekhe")),
 };
