@@ -6,7 +6,7 @@ interface TextHeroProps {
   style?: CSSProperties;
 }
 
-const TextHero = ({ data, style }: TextTextHeroProps) => {
+const TextHero = ({ data, style }: TextHeroProps) => {
   const title = _.get(data, 'title', 'Text');
 
   const newStyle: CSSProperties = {
